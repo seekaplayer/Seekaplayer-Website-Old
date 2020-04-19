@@ -2,11 +2,12 @@ import React from "react";
 import Logo from "../../images/Logo";
 import NavItems from "./NavItems";
 import { Link } from "react-router-dom";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Row, Navbar, Nav } from "react-bootstrap";
+import "./Header.css";
 const Header = () => {
   return (
     <>
-      <Navbar sticky="top" bg="dark" variant="dark">
+      <Navbar sticky="top" bg="dark" expand="lg" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
             <Logo />
