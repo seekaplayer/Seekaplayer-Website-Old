@@ -1,5 +1,43 @@
 footer {
   background: #212121;
   color: #fff;
-  padding: 10em 0em;
+  padding: 4em 0em;
+}
+footer hr {
+  border: 1px solid #fff;
+  height: 0;
+  padding: 0;
+  margin: 1.5em 0;
+  width: 25%;
+}
+footer p {
+  text-indent: 1em;
+  line-height: 2.125em;
+}
+
+.copyright {
+  text-align: center;
+}
+footer img {
+  min-width: 100%;
+}
+footer .instaFeedSecondRow img {
+  margin-top: 1em;
+}
+@media only screen and (max-width: 991px) {
+  footer h2 {
+    text-align: center;
+    margin: 0.5em 0;
+  }
+  footer hr {
+    display: none;
+    text-align: center;
+    margin: 1.5em auto;
+  }
+  footer p {
+    text-align: center;
+  }
+  footer .instaFeedTopRow img {
+    margin-top: 1em;
+  }
 }
