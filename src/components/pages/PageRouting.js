@@ -10,29 +10,31 @@ import Contact from "./contact/Contact";
 
 const PageRouting = () => {
   return (
-    <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route exact path="/about">
-        <About />
-      </Route>
-      <Route exact path="/services">
-        <Services />
-      </Route>
-      <Route exact path="/portfolio">
-        <Portfolio />
-      </Route>
-      <Route exact path="/twitch">
-        <Twitch />
-      </Route>
-      <Route exact path="/blog">
-        <Blog />
-      </Route>
-      <Route exact path="/contact">
-        <Contact />
-      </Route>
-    </Switch>
+    <div className="reactPage">
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/services">
+          <Services />
+        </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route exact path="/twitch">
+          <Twitch />
+        </Route>
+        <Route exact path="/blog">
+          <Blog />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+    </div>
   );
 };
 export default PageRouting;

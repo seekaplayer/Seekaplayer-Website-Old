@@ -11,18 +11,61 @@ footer hr {
   width: 25%;
 }
 footer p {
-  text-indent: 1em;
   line-height: 2.125em;
+}
+footer p a {
+  color: #ffffff;
+  font-weight: bold;
+}
+footer p a:hover {
+  text-decoration: none;
+  color: #12a8e0;
 }
 
 .copyright {
+  margin-top: 2.5em;
   text-align: center;
+  font-size: 0.75em;
 }
 footer img {
   min-width: 100%;
 }
-footer .instaFeedSecondRow img {
+.instaFeedSecondRow img {
   margin-top: 1em;
+}
+.footerIcons {
+  text-align: center;
+  margin-top: 2em;
+}
+.footerIcons span {
+  padding: 0.5em;
+  fill: red !important;
+}
+.footerIcons svg {
+  fill: #ffffff;
+}
+.footerIcons svg:hover {
+  fill: #12a8e0;
+}
+footer nav {
+  margin-top: 2.5em;
+  text-align: center;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer nav ul li {
+  display: inline-block;
+}
+footer nav ul li a {
+  color: #ffffff;
+  padding: 0 0.5em;
+}
+footer nav ul li a:hover {
+  color: #12a8e0;
+  text-decoration: none;
 }
 @media only screen and (max-width: 991px) {
   footer h2 {
@@ -37,7 +80,10 @@ footer .instaFeedSecondRow img {
   footer p {
     text-align: center;
   }
-  footer .instaFeedTopRow img {
+  .instaFeedTopRow img {
     margin-top: 1em;
+  }
+  .footerIcons {
+    margin-top: 3em;
   }
 }
