@@ -2,7 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 import Picture from "../../images/Picture";
-import { ImSeekaplayer, AboutMe } from "../../content/Content";
+import {
+  AboutMe,
+  Gaming,
+  WebDesignDevelopment,
+  HealthAndFitness,
+  Music,
+} from "../../content/Content";
 import "./About.css";
 const About = () => {
   return (
@@ -26,7 +32,45 @@ const About = () => {
                 className="blueImageBorder centerImage"
               />
               <div className="mt-5"></div>
-              <ImSeekaplayer />
+              <AboutMe />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div
+        className="aboutMeSection"
+        style={{ background: "#212121", color: "#ffffff" }}
+      >
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <Picture
+                src="./images/gaming_controller.jpg"
+                alt="Seekaplayer Image"
+                className="blueImageBorder"
+              />
+            </Col>
+
+            <Col lg={8}>
+              <div className="aboutMobileSpacing"></div>
+              <Gaming />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="aboutMeSection">
+        <Container>
+          <Row>
+            <Col xs={{ span: 12, order: 12 }} lg={{ span: 8, order: 1 }}>
+              <div className="aboutMobileSpacing"></div>
+              <WebDesignDevelopment />
+            </Col>
+            <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
+              <Picture
+                src="./images/web_design_development.jpg"
+                alt="Seekaplayer Image"
+                className="blueImageBorder"
+              />
             </Col>
           </Row>
         </Container>
@@ -45,7 +89,8 @@ const About = () => {
               />
             </Col>
             <Col lg={8}>
-              <AboutMe />
+              <div className="aboutMobileSpacing"></div>
+              <HealthAndFitness />
             </Col>
           </Row>
         </Container>
@@ -53,15 +98,16 @@ const About = () => {
       <div className="aboutMeSection">
         <Container>
           <Row>
-            <Col lg={4}>
+            <Col xs={{ span: 12, order: 12 }} lg={{ span: 8, order: 1 }}>
+              <div className="aboutMobileSpacing"></div>
+              <Music />
+            </Col>
+            <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
               <Picture
-                src="./images/gaming_controller.jpg"
+                src="./images/jem7vp.jpg"
                 alt="Seekaplayer Image"
                 className="blueImageBorder"
               />
-            </Col>
-            <Col lg={8}>
-              <AboutMe />
             </Col>
           </Row>
         </Container>

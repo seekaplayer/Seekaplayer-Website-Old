@@ -1,7 +1,7 @@
 import React from "react";
 
 // About Content
-export const ImSeekaplayer = () => {
+export const AboutMe = () => {
   return (
     <>
       <h2>I'm Seekaplayer</h2>
@@ -14,21 +14,73 @@ export const ImSeekaplayer = () => {
         then. I’m a PC and Console Gamer and believe that no matter what kind of
         gaming you do as long as you’re having fun that’s all that matters.
       </p>
-    </>
-  );
-};
-
-export const AboutMe = () => {
-  return (
-    <>
-      <h2>About Me</h2>
-      <hr />
       <p>
         My name is Seekaplayer, I’m 32 years old and I’ve been gaming since I
         was a kid and I don’t plan on stopping anytime soon. I have a passion
         for web design/development, gaming, technology, music and health and
         fitness. I have strive to be the best I can be and I’m always learning
         something new.
+      </p>
+    </>
+  );
+};
+
+export const Gaming = () => {
+  return (
+    <>
+      <h2>Gaming</h2>
+      <hr />
+      <p>
+        Gaming has always been a big part of my life and I’ve been doing it
+        since I can remember. I find gaming to be fun and relaxing (OK the’re
+        sometimes where it can get pretty stressful) and I love doing it. I
+        mostly game on the PC but do enjoy loading up the XBOX ONE.
+      </p>
+    </>
+  );
+};
+
+export const WebDesignDevelopment = () => {
+  return (
+    <>
+      <h2>Web Design/Development</h2>
+      <hr />
+      <p>
+        I’ve always enjoyed web design. I remember my first website was built
+        with Microsoft Publisher and then I used some drag and drop programs to
+        build other sites. A few years later a friend of mine taught me how to
+        code and from there I got inspired to pursue my Bachelors of Science in
+        Communications Technology.
+      </p>
+    </>
+  );
+};
+
+export const HealthAndFitness = () => {
+  return (
+    <>
+      <h2>Health & Fitness</h2>
+      <hr />
+      <p>
+        Since 2018 health & fitness has had a huge impact on my life. I have had
+        a massive transformation and I have changed my life for better. I have
+        lost well over 100 pounds and continue to keep myself in shape. I
+        workout 3 days a week and keep active when I’m not gaming.
+      </p>
+    </>
+  );
+};
+
+export const Music = () => {
+  return (
+    <>
+      <h2>Music</h2>
+      <hr />
+      <p>
+        Music has been a big part of my life. I started by learning the
+        Saxophone in middle school and was able to pick up almost any instrument
+        and have a knack to play it. I play mostly guitar but I do enjoy piano
+        and I have attempted to learn the drums but with not much luck.
       </p>
     </>
   );
