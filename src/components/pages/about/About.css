@@ -1,0 +1,21 @@
+.aboutMeSection {
+  padding: 8em 0;
+}
+.aboutMeSection img {
+  max-width: 100%;
+}
+.aboutMeSection hr {
+  width: 35%;
+  border: 0.1em solid #12a8e0;
+  margin: 1.5em 0;
+}
+.aboutMeSection p {
+  line-height: 2.5em;
+}
+@media only screen and (max-width: 991px) {
+  .aboutMeSection img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+}

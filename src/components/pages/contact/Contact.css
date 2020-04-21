@@ -1,0 +1,44 @@
+.contactHeading hr {
+  background: #12a8e0;
+}
+.contactForm label {
+  font-size: 1.125em;
+}
+.contactForm input {
+  color: #212121;
+  padding: 1.5em 1em;
+}
+.contactForm select {
+  background: #ffffff;
+  color: #212121;
+  height: 3.3em;
+}
+.contactForm button {
+  background: #212121;
+  padding: 1em 2em;
+  border-radius: 0;
+  border: none;
+  font-size: 1.125em;
+}
+.contactForm button:hover {
+  background: #12a8e0;
+}
+
+.contactIcons {
+  text-align: center;
+}
+.contactIcons span {
+  padding: 0.1em;
+}
+.contactIcons svg {
+  fill: #212121;
+}
+.contactIcons svg:hover {
+  fill: #12a8e0;
+}
+
+@media only screen and (max-width: 991px) {
+  .contactIcons {
+    margin-top: 2em;
+  }
+}

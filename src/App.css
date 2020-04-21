@@ -6,3 +6,6 @@
 .reactPage {
   flex: 1;
 }
+.pageSpacing {
+  margin: 2em 0;
+}

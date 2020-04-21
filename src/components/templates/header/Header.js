@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <Navbar sticky="top" bg="dark" expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <Logo />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
