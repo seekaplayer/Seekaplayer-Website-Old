@@ -103,6 +103,49 @@ export const MyServices = () => {
   );
 };
 
+export const GraphicDesign = () => {
+  return (
+    <>
+      <h2>Graphic Design</h2>
+      <hr />
+      <p>
+        From image manipulation to making logo’s I have a good understanding of
+        graphic design. If you need some work done such as a logo, social media
+        or any other graphic need. Feel free to fill out my contact form and
+        submit a request.
+      </p>
+    </>
+  );
+};
+
+export const HumbleBundle = () => {
+  return (
+    <>
+      <h2>Humble Bundle</h2>
+      <hr />
+      <p>
+        On the first Friday of each month, you’ll get a bundle of awesome games.
+        Add them to your game library and play on PC. Check out what subscribers
+        have gotten so far!
+      </p>
+    </>
+  );
+};
+
+export const EpidemicSounds = () => {
+  return (
+    <>
+      <h2>Epidemic Sounds</h2>
+      <hr />
+      <p>
+        I use Epidemic Sounds for my Streaming Music. I love Epidemic Sounds and
+        their one services let's me use Copyright Free Music for Streaming,
+        VIdeos and so much more. Sign Up Today! for a 30 Day Trial.
+      </p>
+    </>
+  );
+};
+
 // Footer Content
 export const FooterAbout = () => {
   return (

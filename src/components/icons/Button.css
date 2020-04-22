@@ -1,0 +1,22 @@
+.whiteBtn {
+  background: #ffff;
+  color: #212121;
+  border: none;
+  border-radius: 0;
+}
+.whiteBtn:hover {
+  background: #f0f0f0;
+  color: #202020;
+  text-decoration: none;
+}
+.blackBtn {
+  background: #212121;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+}
+.blackBtn:hover {
+  background: #202020;
+  color: #f0f0f0;
+  text-decoration: none;
+}

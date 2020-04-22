@@ -47,7 +47,6 @@ const About = () => {
               <Picture
                 src="./images/gaming_controller.jpg"
                 alt="Seekaplayer Image"
-                className="blueImageBorder"
               />
             </Col>
 
@@ -69,7 +68,6 @@ const About = () => {
               <Picture
                 src="./images/web_design_development.jpg"
                 alt="Seekaplayer Image"
-                className="blueImageBorder"
               />
             </Col>
           </Row>
@@ -85,7 +83,6 @@ const About = () => {
               <Picture
                 src="./images/seekaplayer2.jpg"
                 alt="Seekaplayer Image"
-                className="blueImageBorder"
               />
             </Col>
             <Col lg={8}>
@@ -103,11 +100,7 @@ const About = () => {
               <Music />
             </Col>
             <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
-              <Picture
-                src="./images/jem7vp.jpg"
-                alt="Seekaplayer Image"
-                className="blueImageBorder"
-              />
+              <Picture src="./images/jem7vp.jpg" alt="Seekaplayer Image" />
             </Col>
           </Row>
         </Container>
