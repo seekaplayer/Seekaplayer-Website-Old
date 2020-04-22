@@ -4,7 +4,7 @@ import React from "react";
 export const AboutMe = () => {
   return (
     <>
-      <h2>I'm Seekaplayer</h2>
+      <h1>I'm Seekaplayer</h1>
       <hr />
       <p>
         My name is Seekaplayer and I’m a gamer, streamer and content creator. I
@@ -81,6 +81,23 @@ export const Music = () => {
         Saxophone in middle school and was able to pick up almost any instrument
         and have a knack to play it. I play mostly guitar but I do enjoy piano
         and I have attempted to learn the drums but with not much luck.
+      </p>
+    </>
+  );
+};
+
+// Services Content
+export const MyServices = () => {
+  return (
+    <>
+      <h1>My Services</h1>
+      <hr />
+      <p>
+        I offer multiple services from web design, web development to graphic
+        design. If you’re interested in these services you can learn more about
+        them on this page and I invite you to fill out my contact form and send
+        me a request. I have also partnered or affiliated with companies that I
+        believe produce great services.
       </p>
     </>
   );

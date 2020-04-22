@@ -1,0 +1,24 @@
+.serviceSection {
+  padding: 8em 0;
+}
+.serviceSection img {
+  max-width: 100%;
+}
+.serviceSection hr {
+  width: 35%;
+  border: 0.1em solid #12a8e0;
+  margin: 1.5em 0;
+}
+.serviceSection p {
+  line-height: 2.5em;
+}
+@media only screen and (max-width: 991px) {
+  .serviceSection img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .serviceSectionMobileSpacing {
+    margin-top: 2em;
+  }
+}
