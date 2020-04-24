@@ -35,7 +35,11 @@ const Footer = () => {
                 return (
                   <span key={key}>
                     <span>
-                      <a href={icon.link} target="_blank">
+                      <a
+                        href={icon.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {icon.component}
                       </a>
                     </span>

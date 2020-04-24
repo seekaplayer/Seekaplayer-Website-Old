@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../images/Logo";
 import NavItems from "./NavItems";
 import { Link } from "react-router-dom";
-import { Container, Row, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import "./Header.css";
 const Header = () => {
   return (

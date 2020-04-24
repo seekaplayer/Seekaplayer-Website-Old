@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 import VideoPlayer from "../../twitch/VideoPlayer";
 import "./Twitch.css";
-import TwitchUserData from "../../libs/Twitch";
+import { TwitchUserData } from "../../libs/Twitch";
 const Twitch = () => {
   return (
     <>
@@ -19,14 +19,16 @@ const Twitch = () => {
       <div className="twitchHeader">
         <Container>
           <Row>
-            <Col></Col>
+            <Col>
+              <VideoPlayer />
+            </Col>
           </Row>
         </Container>
       </div>
       <div className="twitchSection">
         <Container>
           <Row>
-            <Col></Col>
+            <Col>{TwitchUserData()}</Col>
           </Row>
         </Container>
       </div>

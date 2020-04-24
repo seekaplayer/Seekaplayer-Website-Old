@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { Icons } from "../../icons/Icons";
 const ContactCard = () => {
   return (
@@ -13,7 +13,11 @@ const ContactCard = () => {
               return (
                 <>
                   <span>
-                    <a href={icon.link} target="_blank">
+                    <a
+                      href={icon.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {icon.component}
                     </a>
                   </span>

@@ -99,6 +99,7 @@ const Services = () => {
               <a
                 href="https://www.epidemicsound.com/referral/2msj1d/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <CustomButton
                   className="whiteBtn serviceButton"
@@ -118,6 +119,7 @@ const Services = () => {
               <a
                 href="https://www.humblebundle.com/monthly?partner=seekaplayer"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <CustomButton
                   className="blackBtn serviceButton"

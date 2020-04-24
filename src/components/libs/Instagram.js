@@ -18,18 +18,18 @@ const IGF = () => {
   return (
     <>
       <Row className="instaFeedTopRow">
-        {instaFeed.slice(0, 3).map((instagram) => {
+        {instaFeed.slice(0, 3).map((instagram, key) => {
           return (
-            <Col sm={4}>
+            <Col key={key} sm={4}>
               <Image fluid src={instagram.node.thumbnail_src} />
             </Col>
           );
         })}
       </Row>
       <Row className="instaFeedSecondRow">
-        {instaFeed.slice(3, 6).map((instagram) => {
+        {instaFeed.slice(3, 6).map((instagram, key) => {
           return (
-            <Col sm={4}>
+            <Col key={key} sm={4}>
               <Image fluid src={instagram.node.thumbnail_src} />
             </Col>
           );
