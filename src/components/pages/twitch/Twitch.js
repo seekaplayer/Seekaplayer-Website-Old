@@ -1,9 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
-import VideoPlayer from "../../twitch/VideoPlayer";
-import "./Twitch.css";
+import VideoPlayer from "../../videoplayer/VideoPlayer";
+import Chat from "../../chat/Chat";
 import { TwitchUserData } from "../../libs/Twitch";
+import "./Twitch.css";
 const Twitch = () => {
   return (
     <>
@@ -19,7 +20,12 @@ const Twitch = () => {
       <div className="twitchHeader">
         <Container>
           <Row>
-            <Col></Col>
+            <Col sm={12} md={12} lg={8}>
+              <VideoPlayer />
+            </Col>
+            <Col sm={12} md={12} lg={4}>
+              <Chat />
+            </Col>
           </Row>
         </Container>
       </div>
