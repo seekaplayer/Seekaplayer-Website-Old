@@ -28,7 +28,7 @@ const About = () => {
             <Col>
               <Picture
                 src="./images/seekaplayer.jpg"
-                alt="Seekaplayer Image"
+                alt="Picture of Seekaplayer"
                 className="blueImageBorder centerImage"
               />
               <div className="mt-5"></div>
@@ -46,7 +46,7 @@ const About = () => {
             <Col lg={4}>
               <Picture
                 src="./images/gaming_controller.jpg"
-                alt="Seekaplayer Image"
+                alt="Second Picture of Seekaplayer"
               />
             </Col>
 
@@ -67,7 +67,7 @@ const About = () => {
             <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
               <Picture
                 src="./images/web_design_development.jpg"
-                alt="Seekaplayer Image"
+                alt="Web Design and Development Image"
               />
             </Col>
           </Row>
@@ -82,7 +82,7 @@ const About = () => {
             <Col lg={4}>
               <Picture
                 src="./images/seekaplayer2.jpg"
-                alt="Seekaplayer Image"
+                alt="A Picture of Seekaplayer at the Gym"
               />
             </Col>
             <Col lg={8}>
@@ -100,7 +100,10 @@ const About = () => {
               <Music />
             </Col>
             <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
-              <Picture src="./images/jem7vp.jpg" alt="Seekaplayer Image" />
+              <Picture
+                src="./images/jem7vp.jpg"
+                alt="A Picture of a JEMJR Guitar"
+              />
             </Col>
           </Row>
         </Container>

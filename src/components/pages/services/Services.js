@@ -75,7 +75,7 @@ const Services = () => {
             <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
               <Picture
                 src="./images/graphic_design.jpg"
-                alt="Seekaplayer Image"
+                alt="A Picture of Graphic Design"
               />
             </Col>
           </Row>
@@ -90,7 +90,7 @@ const Services = () => {
             <Col lg={4}>
               <Picture
                 src="./images/epidemic_sounds.jpg"
-                alt="Web Design/Development Image."
+                alt="Epidemic Sounds Logo"
               />
             </Col>
             <Col lg={8}>
@@ -128,7 +128,7 @@ const Services = () => {
             <Col xs={{ span: 12, order: 1 }} lg={{ span: 4, order: 12 }}>
               <Picture
                 src="./images/humble_bundle.png"
-                alt="Seekaplayer Image"
+                alt="Humble Bundle Logo"
               />
             </Col>
           </Row>
