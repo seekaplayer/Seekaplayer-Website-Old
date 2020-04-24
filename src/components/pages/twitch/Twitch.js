@@ -1,5 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Container, Row, Col } from "react-bootstrap";
+import VideoPlayer from "../../twitch/VideoPlayer";
+import "./Twitch.css";
+import TwitchUserData from "../../libs/Twitch";
 const Twitch = () => {
   return (
     <>
@@ -12,9 +16,20 @@ const Twitch = () => {
         <meta name="description" content="Check out my Twitch Channel." />
         <title>Seekaplayer | Home</title>
       </Helmet>
-      <h1>Twitch Page</h1>
-
-      <p>This is the Twitch page</p>
+      <div className="twitchHeader">
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="twitchSection">
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

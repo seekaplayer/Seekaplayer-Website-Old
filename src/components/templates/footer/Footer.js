@@ -31,15 +31,15 @@ const Footer = () => {
           </Row>
           <Row>
             <Col className="footerIcons">
-              {Icons.map((icon) => {
+              {Icons.map((icon, key) => {
                 return (
-                  <>
+                  <span key={key}>
                     <span>
                       <a href={icon.link} target="_blank">
                         {icon.component}
                       </a>
                     </span>
-                  </>
+                  </span>
                 );
               })}
             </Col>
@@ -48,9 +48,9 @@ const Footer = () => {
             <Col>
               <nav>
                 <ul>
-                  {NavItems.map((navItem) => {
+                  {NavItems.map((navItem, key) => {
                     return (
-                      <li key={navItem.name}>
+                      <li key={key}>
                         <Link to={navItem.path}>{navItem.name}</Link>
                       </li>
                     );
