@@ -19,16 +19,14 @@ const Twitch = () => {
       <div className="twitchHeader">
         <Container>
           <Row>
-            <Col>
-              <VideoPlayer />
-            </Col>
+            <Col></Col>
           </Row>
         </Container>
       </div>
       <div className="twitchSection">
         <Container>
           <Row>
-            <Col>{TwitchUserData()}</Col>
+            <Col></Col>
           </Row>
         </Container>
       </div>

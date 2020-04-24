@@ -9,19 +9,13 @@ const ContactCard = () => {
           <Card.Title>Connect with Me</Card.Title>
           <hr />
           <Card.Text>
-            {Icons.map((icon) => {
+            {Icons.map((icon, key) => {
               return (
-                <>
-                  <span>
-                    <a
-                      href={icon.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {icon.component}
-                    </a>
-                  </span>
-                </>
+                <span key={key}>
+                  <a href={icon.link} target="_blank" rel="noopener noreferrer">
+                    {icon.component}
+                  </a>
+                </span>
               );
             })}
           </Card.Text>
