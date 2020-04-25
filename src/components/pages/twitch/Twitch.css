@@ -1,7 +1,17 @@
 .twitchHeader {
-  background: #9146ff;
-  padding: 5em 0;
+  background: #12a8e0;
+  padding: 8em 0;
 }
 .twitchSection {
   padding: 8em 0;
+}
+.twitchHeader h1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.twitchHeader hr {
+  background: #fff;
+  height: 0.2em;
+  border: 0;
+  margin-bottom: 5.5em;
 }

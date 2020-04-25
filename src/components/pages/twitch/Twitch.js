@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 import VideoPlayer from "../../videoplayer/VideoPlayer";
 import Chat from "../../chat/Chat";
-import { TwitchUserData } from "../../libs/Twitch";
+import Followers from "../../content/Followers";
 import "./Twitch.css";
 const Twitch = () => {
   return (
@@ -20,6 +20,12 @@ const Twitch = () => {
       <div className="twitchHeader">
         <Container>
           <Row>
+            <Col>
+              <h1>Seekaplayer Twtich</h1>
+              <hr />
+            </Col>
+          </Row>
+          <Row>
             <Col sm={12} md={12} lg={8}>
               <VideoPlayer />
             </Col>
@@ -32,7 +38,9 @@ const Twitch = () => {
       <div className="twitchSection">
         <Container>
           <Row>
-            <Col></Col>
+            <Col>
+              <Followers />
+            </Col>
           </Row>
         </Container>
       </div>
