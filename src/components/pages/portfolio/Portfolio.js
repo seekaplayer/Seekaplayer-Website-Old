@@ -24,48 +24,28 @@ const Portfolio = () => {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col md={12} lg={4}>
               <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
+                path="./images/seekaplayer-dev.png"
+                title="Seekaplayer Dev Website"
+                text="This is an SPA App website that I use for testing out my projects. This uses React"
+                url="https://github.com/seekaplayer/Seekaplayer-Development-Site"
               />
             </Col>
-            <Col>
+            <Col md={12} lg={4}>
               <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
+                path="./images/twitch-streamer-search.png"
+                title="Twitch Streamer Search V1"
+                text="This application searches Twitch's API for a streamer you'd like to find out more about. This uses React."
+                url="https://github.com/seekaplayer/Twitch-Streamer-Search-2"
               />
             </Col>
-            <Col>
+            <Col md={12} lg={4}>
               <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
-              />
-            </Col>
-          </Row>
-          <Row className="mt-4">
-            <Col>
-              <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
-              />
-            </Col>
-            <Col>
-              <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
-              />
-            </Col>
-            <Col>
-              <Projects
-                path="./images/video_placeholder.jpg"
-                title="Test"
-                text="dsklafjsdlkjfaslkd fjalksd jfalksdjflkasdj flksjdlfk; ajsdlk fjsdlk fd"
+                path="./images/twitch-streamer-search-2.png"
+                title="Twitch Streamer Search V2"
+                text="This is the second version to the Twitch Streamer Search. This time when you type in the search bar a list of Twitch Accounts generates in real-time."
+                url="https://github.com/seekaplayer/Twitch-Streamer-Search"
               />
             </Col>
           </Row>

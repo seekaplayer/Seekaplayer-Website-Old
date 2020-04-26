@@ -6,3 +6,12 @@
   border: 0.1em solid #12a8e0;
   margin: 1.5em 0;
 }
+.portfolioSection .card-text {
+  height: 8em;
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolioSection .card-text {
+    height: auto;
+  }
+}
