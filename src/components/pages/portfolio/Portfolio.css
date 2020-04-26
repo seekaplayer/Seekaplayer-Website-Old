@@ -1,0 +1,8 @@
+.portfolioSection {
+  padding: 8em 0;
+}
+.portfolioSection hr {
+  width: 35%;
+  border: 0.1em solid #12a8e0;
+  margin: 1.5em 0;
+}

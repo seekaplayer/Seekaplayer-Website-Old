@@ -24,7 +24,7 @@ const Twitch = () => {
         <Container>
           <Row>
             <Col>
-              <h1>Seekaplayer Twtich</h1>
+              <h1>Seekaplayer's Twitch</h1>
               <hr />
               <span className="twitchStats">
                 Followers: <Followers /> | Channel Views: <Viewers />
