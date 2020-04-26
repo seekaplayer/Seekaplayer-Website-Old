@@ -11,7 +11,7 @@ const Followers = () => {
         console.log(err);
       });
   }, []);
-  return <>{followers.total}</>;
+  return <>{followers.total.toLocaleString()}</>;
 };
 
 export default Followers;

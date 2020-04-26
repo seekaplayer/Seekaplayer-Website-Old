@@ -5,7 +5,6 @@ import About from "./about/About";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Twitch from "./twitch/Twitch";
-import Blog from "./blog/Blog";
 import Contact from "./contact/Contact";
 
 const PageRouting = () => {
@@ -26,9 +25,6 @@ const PageRouting = () => {
         </Route>
         <Route exact path="/twitch">
           <Twitch />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
         </Route>
         <Route exact path="/contact">
           <Contact />

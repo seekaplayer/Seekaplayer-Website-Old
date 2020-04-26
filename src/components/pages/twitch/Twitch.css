@@ -1,8 +1,12 @@
+.twitchStats {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 1em 0;
+  display: block;
+}
 .twitchHeader {
   background: #12a8e0;
-  padding: 8em 0;
-}
-.twitchSection {
   padding: 8em 0;
 }
 .twitchHeader h1 {
@@ -13,5 +17,19 @@
   background: #fff;
   height: 0.2em;
   border: 0;
-  margin-bottom: 5.5em;
+}
+.twitchSection {
+  padding: 8em 0;
+}
+.twitchSection hr {
+  background: #212121;
+  width: 50%;
+  margin: 1.5em 0;
+}
+.twitchSection a {
+  color: #9146ff;
+}
+.twitchSection a:hover {
+  color: #8205b4;
+  text-decoration: none;
 }

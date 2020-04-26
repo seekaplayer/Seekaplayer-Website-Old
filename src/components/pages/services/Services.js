@@ -12,7 +12,6 @@ import Picture from "../../images/Picture";
 import CustomButton from "../../icons/Button";
 import { Link } from "react-router-dom";
 import "./Services.css";
-import "../../icons/Button.css";
 const Services = () => {
   return (
     <>
